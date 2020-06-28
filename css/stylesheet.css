@@ -1,0 +1,47 @@
+body{
+	background: #fff;
+	margin: 0;
+	padding: 0;
+}
+.sidebar{
+	color: #000;
+	height: 300px;
+	width: 15%;
+	right: 0;
+	top: 0;
+	position: absolute;
+}
+.header{
+	position: static;
+	float: center;
+	width: 98%;
+	top: 15px;
+}
+.footer{
+	position: static;
+	float: center;
+	width: 98%;
+	bottom: 15px;
+}
+#main{
+	max-width: 900px;
+	margin: 0 auto !important;
+	float: center !important;
+}
+.button{
+	background-color: #ffcc00;
+	border: none;
+	color: black;
+	padding: 4px 8px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+}
+a.button:hover{
+	background-color: #330099;
+	color: white;
+}
