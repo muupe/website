@@ -13,20 +13,17 @@ body{
 }
 .header{
 	position: static;
-	float: center;
 	width: 98%;
 	top: 15px;
 }
 .footer{
 	position: static;
-	float: center;
 	width: 98%;
 	bottom: 15px;
 }
 #main{
 	max-width: 900px;
 	margin: 0 auto !important;
-	float: center !important;
 }
 .button{
 	background-color: #ffcc00;
@@ -44,4 +41,12 @@ body{
 a.button:hover{
 	background-color: #330099;
 	color: white;
+}
+.medium-font{
+	font-size: medium;
+    font-family: verdana;
+}
+.x-large-font {
+	font-size: x-large;
+    font-family: verdana;
 }
